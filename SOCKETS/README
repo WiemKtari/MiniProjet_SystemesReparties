@@ -8,40 +8,19 @@ Git (pour cloner le dépôt)
 
 Déploiement du Serveur
 Clonez ce dépôt sur votre machine locale en utilisant la commande suivante :
-git clone https://github.com/votre-utilisateur/mon-depot.git
-Accédez au répertoire du projet du serveur :
+git clone https://github.com/WiemKtari/MiniProjet_SystemesReparties.git
 
-bash
-Copy code
-cd mon-depot/ChatServer
-Compilez le fichier Java du serveur :
+Accédez au répertoire du projet du serveur : cd MiniProjet_SystemesReparties/ChatServer
 
-bash
-Copy code
-javac ChatServer.java
-Démarrez le serveur en utilisant la commande suivante :
+Compilez le fichier Java du serveur :javac ChatServer.java
 
-bash
-Copy code
-java ChatServer
+Démarrez le serveur en utilisant la commande suivante :java ChatServer
 Le serveur de chat sera lancé et prêt à recevoir des connexions de clients.
 
 Utilisation du Client
-Accédez au répertoire du projet du client :
-
-bash
-Copy code
-cd mon-depot/ChatClient
-Compilez le fichier Java du client :
-
-bash
-Copy code
-javac ChatClient.java
-Lancez le client en utilisant la commande suivante :
-
-bash
-Copy code
-java ChatClient
+Accédez au répertoire du projet du client : cd MiniProjet_SystemesReparties/ChatClient
+Compilez le fichier Java du client :javac ChatClient.java
+Lancez le client en utilisant la commande suivante : java ChatClient
 Le client vous demandera d'entrer votre nom. Après avoir saisi votre nom, vous pourrez envoyer et recevoir des messages dans le salon de discussion.
 
 Tests
