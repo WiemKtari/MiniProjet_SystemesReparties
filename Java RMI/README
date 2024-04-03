@@ -1,0 +1,50 @@
+Application Java RMI - Gestion de Liste de Tâches
+Ce dépôt contient une application Java RMI pour la gestion d'une liste de tâches, comprenant un serveur et un client.
+
+Prérequis
+Avant de déployer et tester l'application, assurez-vous d'avoir installé les logiciels suivants :
+
+Java Development Kit (JDK) version 8 ou supérieure
+Git (pour cloner le dépôt)
+Déploiement
+Clonez ce dépôt sur votre machine locale en utilisant la commande suivante :
+
+bash
+Copy code
+git clone https://github.com/votre-utilisateur/mon-depot.git
+Accédez au répertoire du projet :
+
+bash
+Copy code
+cd mon-depot
+Compilez les fichiers Java du serveur et du client :
+
+bash
+Copy code
+javac *.java
+Démarrage du Serveur
+Pour démarrer le serveur, exécutez la commande suivante :
+
+bash
+Copy code
+java TaskServer
+Le serveur RMI sera lancé et prêt à recevoir des requêtes des clients.
+
+Utilisation du Client
+Pour utiliser le client, lancez le programme client avec la commande suivante :
+
+bash
+Copy code
+java TaskClient
+Le client affichera un menu interactif où vous pourrez choisir parmi les options suivantes :
+
+Ajouter une tâche
+Supprimer une tâche
+Récupérer la liste complète des tâches
+Quitter
+Suivez les instructions du menu pour effectuer les opérations souhaitées.
+
+Tests
+Pour tester l'application, vous pouvez ajouter des tâches, les supprimer et récupérer la liste complète des tâches à l'aide du client. Assurez-vous que le serveur est en cours d'exécution pendant les tests.
+
+
