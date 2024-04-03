@@ -1,1 +1,50 @@
+Application de Chat avec Sockets - Service de Chat
+Ce dépôt contient une application de chat avec sockets en Java, comprenant un serveur de chat et un client de chat.
+
+Prérequis
+Avant de déployer et tester l'application, assurez-vous d'avoir installé les logiciels suivants :
+Java Development Kit (JDK) version 8 ou supérieure
+Git (pour cloner le dépôt)
+
+Déploiement du Serveur
+Clonez ce dépôt sur votre machine locale en utilisant la commande suivante :
+git clone https://github.com/votre-utilisateur/mon-depot.git
+Accédez au répertoire du projet du serveur :
+
+bash
+Copy code
+cd mon-depot/ChatServer
+Compilez le fichier Java du serveur :
+
+bash
+Copy code
+javac ChatServer.java
+Démarrez le serveur en utilisant la commande suivante :
+
+bash
+Copy code
+java ChatServer
+Le serveur de chat sera lancé et prêt à recevoir des connexions de clients.
+
+Utilisation du Client
+Accédez au répertoire du projet du client :
+
+bash
+Copy code
+cd mon-depot/ChatClient
+Compilez le fichier Java du client :
+
+bash
+Copy code
+javac ChatClient.java
+Lancez le client en utilisant la commande suivante :
+
+bash
+Copy code
+java ChatClient
+Le client vous demandera d'entrer votre nom. Après avoir saisi votre nom, vous pourrez envoyer et recevoir des messages dans le salon de discussion.
+
+Tests
+Pour tester l'application, lancez plusieurs instances du client et connectez-vous au salon de discussion en utilisant des noms différents pour chaque client. Envoyez des messages depuis un client et vérifiez que les autres clients reçoivent les messages.
+
 
