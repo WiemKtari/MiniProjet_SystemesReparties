@@ -10,7 +10,7 @@ Déploiement
 Clonez ce dépôt sur votre machine locale en utilisant la commande suivante :
 git clone https://github.com/WiemKtari/MiniProjet_SystemesReparties.git
 
-Accédez au répertoire du projet :cd MiniProjet_SystemesReparties
+Accédez au répertoire du projet :cd MiniProjet_SystemesReparties/JAVA RMI
 
 Compilez les fichiers Java du serveur et du client :javac *.java
 
