@@ -1,6 +1,8 @@
 Application de Chat avec Sockets - Service de Chat
 Ce dépôt contient une application de chat avec sockets en Java, comprenant un serveur de chat et un client de chat.
 
+Comment tester le code:
+
 Prérequis
 Avant de déployer et tester l'application, assurez-vous d'avoir installé les logiciels suivants :
 Java Development Kit (JDK) version 8 ou supérieure
@@ -10,7 +12,7 @@ Déploiement du Serveur
 Clonez ce dépôt sur votre machine locale en utilisant la commande suivante :
 git clone https://github.com/WiemKtari/MiniProjet_SystemesReparties.git
 
-Accédez au répertoire du projet du serveur : cd MiniProjet_SystemesReparties/ChatServer
+Accédez au répertoire du projet du serveur : cd MiniProjet_SystemesReparties/SOCKETS/ChatServer
 
 Compilez le fichier Java du serveur :javac ChatServer.java
 
@@ -18,7 +20,7 @@ Démarrez le serveur en utilisant la commande suivante :java ChatServer
 Le serveur de chat sera lancé et prêt à recevoir des connexions de clients.
 
 Utilisation du Client
-Accédez au répertoire du projet du client : cd MiniProjet_SystemesReparties/ChatClient
+Accédez au répertoire du projet du client : cd MiniProjet_SystemesReparties/SOCKETS/ChatClient
 Compilez le fichier Java du client :javac ChatClient.java
 Lancez le client en utilisant la commande suivante : java ChatClient
 Le client vous demandera d'entrer votre nom. Après avoir saisi votre nom, vous pourrez envoyer et recevoir des messages dans le salon de discussion.
